@@ -1,0 +1,16 @@
+<html>
+<head>
+</head>
+<body>
+<button value ="test" onclick="copyinput"/>
+<div id="aa">aaaaaaaaaaaaaaa</div>
+<script type="text/javascript">
+function copyinput()
+{
+var input=document.getElementById("aa");//input的ID值
+input.select(); //选择对象
+document.execCommand("Copy"); //执行浏览器复制命令
+}
+</script> 
+</body>
+</html>
